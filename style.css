@@ -2,9 +2,8 @@ body{
     margin: 0;
     padding: 0;
 }
-
-.nav-cabecalho{
-    background-color: lightgreen;
+.cabecalho{
+    background-image: linear-gradient(green, lightgreen, white );
 }
 .ul-cabecalho{
     margin: 0;
@@ -17,4 +16,22 @@ body{
 .a-cabecalho{
     text-decoration: none;
     color: black;
+}
+.div-cabecalho{
+    display: table;
+    margin: 0 auto;
+}
+
+.h1-cabecalho{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p-cabecalho {
+    text-align: center;
+}
+
+.img-cabecalho{
+    display: block;
+    margin: 0 auto;
 }
